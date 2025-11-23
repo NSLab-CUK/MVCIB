@@ -1,5 +1,5 @@
-# Multi-View Conditional Information Bottleneck <br> (S-CGIB)
-Multi-View Conditional Information Bottleneck (MVCIB) is a novel architecture for pre-training Graph Neural Networks in 2D and 3D molecular structures and developed by [NS Lab, CUK](https://nslab-cuk.github.io/) based on pure [PyTorch](https://github.com/pytorch/pytorch) backend. 
+# Multi-View Conditional Information Bottleneck <br> (MVCIB)
+Multi-View Conditional Information Bottleneck (MVCIB) is a novel architecture for pre-training Graph Neural Networks on 2D and 3D molecular structures and developed by [NS Lab, CUK](https://nslab-cuk.github.io/) based on pure [PyTorch](https://github.com/pytorch/pytorch) backend. 
 
 <p align=center>
   <a href="https://www.python.org/downloads/release/python-360/">
