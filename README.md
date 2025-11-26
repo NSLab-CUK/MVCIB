@@ -8,13 +8,13 @@ Multi-View Conditional Information Bottleneck (MVCIB) is a novel architecture fo
   <a href="https://github.com/pytorch/pytorch">
     <img src="https://img.shields.io/badge/PyTorch->=1.4-FF6F00?logo=pytorch&style=flat-square" alt="pytorch">
   </a>    
-  <img src="https://custom-icon-badges.demolab.com/github/last-commit/NSLab-CUK/S-CGIB?logo=history&logoColor=white&style=flat-square"/>
-  <img src="https://custom-icon-badges.demolab.com/github/languages/code-size/NSLab-CUK/S-CGIB?logo=file-code&logoColor=white&style=flat-square"/>
-  <img src="https://custom-icon-badges.demolab.com/github/issues-pr-closed/NSLab-CUK/S-CGIB?color=purple&logo=git-pull-request&logoColor=white&style=flat-square"/>
-  <img src="https://custom-icon-badges.demolab.com/github/v/tag/NSLab-CUK/S-CGIB?logo=tag&logoColor=white&style=flat-square"/>
-  <img src="https://custom-icon-badges.demolab.com/github/stars/NSLab-CUK/S-CGIB?logo=star&style=flat-square"/>
-  <img src="https://custom-icon-badges.demolab.com/github/issues-raw/NSLab-CUK/S-CGIB?logo=issue&style=flat-square"/>
-  <img src="https://custom-icon-badges.demolab.com/github/license/NSLab-CUK/S-CGIB?logo=law&style=flat-square"/>
+  <img src="https://custom-icon-badges.demolab.com/github/last-commit/NSLab-CUK/MVCIB?logo=history&logoColor=white&style=flat-square"/>
+  <img src="https://custom-icon-badges.demolab.com/github/languages/code-size/NSLab-CUK/MVCIB?logo=file-code&logoColor=white&style=flat-square"/>
+  <img src="https://custom-icon-badges.demolab.com/github/issues-pr-closed/NSLab-CUK/MVCIB?color=purple&logo=git-pull-request&logoColor=white&style=flat-square"/>
+  <img src="https://custom-icon-badges.demolab.com/github/v/tag/NSLab-CUK/MVCIB?logo=tag&logoColor=white&style=flat-square"/>
+  <img src="https://custom-icon-badges.demolab.com/github/stars/NSLab-CUK/MVCIB?logo=star&style=flat-square"/>
+  <img src="https://custom-icon-badges.demolab.com/github/issues-raw/NSLab-CUK/MVCIB?logo=issue&style=flat-square"/>
+  <img src="https://custom-icon-badges.demolab.com/github/license/NSLab-CUK/MVCIB?logo=law&style=flat-square"/>
 </p>
 
 <br>
@@ -124,34 +124,34 @@ python exp_molqm9.py  --target_index 0
 ## 3. Reference
 
 :page_with_curl: Paper [on arXiv](https://arxiv.org/): 
-* [![arXiv](https://img.shields.io/badge/arXiv-2412.15589-b31b1b?style=flat-square&logo=arxiv&logoColor=red)](https://arxiv.org/abs/2412.15589) 
+* [![arXiv](https://img.shields.io/badge/arXiv-2511.18404-b31b1b?style=flat-square&logo=arxiv&logoColor=red)](https://arxiv.org/abs/2511.18404) 
 
-:pencil: Blog post [on Network Science Lab](https://nslab-cuk.github.io/2024/12/19/SCGIB/): 
-* [![Web](https://img.shields.io/badge/NS@CUK-Post-0C2E86?style=flat-square&logo=jekyll&logoColor=FFFFFF)](https://nslab-cuk.github.io/2024/12/19/SCGIB/)
+:pencil: Blog post [on Network Science Lab](https://nslab-cuk.github.io/2025/11/22/MVCIB/): 
+* [![Web](https://img.shields.io/badge/NS@CUK-Post-0C2E86?style=flat-square&logo=jekyll&logoColor=FFFFFF)](https://nslab-cuk.github.io/2025/11/22/MVCIB/)
 
 
 ## 4. Citing MVCIB
 
 Please cite our [paper](https://ojs.aaai.org/index.php/AAAI/article/view/33891) if you find *MVCIB* useful in your work:
 ```
-@misc{hoang2024pretraininggraphneuralnetworks,
-      title={Pre-training Graph Neural Networks on Molecules by Using Subgraph-Conditioned Graph Information Bottleneck}, 
+@misc{hoang2025pretraininggraphneuralnetworks,
+      title={Pre-training Graph Neural Networks on 2D and 3D Molecular Structures by using Multi-View Conditional Information Bottleneck}, 
       author={Van Thuy Hoang and O-Joun Lee},
-      year={2024},
-      eprint={2412.15589},
+      year={2025},
+      eprint={2511.18404},
       archivePrefix={arXiv},
       primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2412.15589}, 
+      url={https://arxiv.org/abs/2511.18404}, 
 }
 ```
 
-Please take a look at our unified graph transformer model, [**UGT**](https://github.com/NSLab-CUK/Unified-Graph-Transformer), which can preserve local and globl graph structure, and community-aware graph transformer model, [**CGT**](https://github.com/NSLab-CUK/Community-aware-Graph-Transformer), which can mitigate degree bias problem of message passing mechanism, together. 
+Please take a look at our unified graph transformer model, [**UGT**](https://github.com/NSLab-CUK/Unified-Graph-Transformer), which can preserve local and globl graph structure, and community-aware graph transformer model, [**CGT**](https://github.com/NSLab-CUK/Community-aware-Graph-Transformer), which can mitigate degree bias problem of message passing mechanism, and [**S-CGIB**](https://github.com/NSLab-CUK/S-CGIB), which builds a pre-trained Graph Neural Network (GNN) model on molecules without human annotations or prior knowledge, together. 
 
 
 ## 5. Contributors
 
-<a href="https://github.com/NSLab-CUK/S-CGIB/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=NSLab-CUK/S-CGIB" />
+<a href="https://github.com/NSLab-CUK/MVCIB/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=NSLab-CUK/MVCIB" />
 </a>
 
 
